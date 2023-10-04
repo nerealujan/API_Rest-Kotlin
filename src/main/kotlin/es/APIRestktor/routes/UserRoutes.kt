@@ -8,8 +8,8 @@ import io.ktor.server.response.*
 import io.ktor.server.routing.*
 
 private val users = mutableListOf(
-    User(1, "Nerea", 34, "nerea@lujan.com"),
-    User(2, "Nerea2", 34, "nerea2@lujan.com")
+    User(1, "Josefa", 34, "josefa@example.com"),
+    User(2, "Maria del Mar", 34, "mariadelmar@example.com")
 )
 
 fun Route.userRouting(){
