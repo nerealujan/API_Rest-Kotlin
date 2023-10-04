@@ -1,4 +1,4 @@
-package es.APIRestktor.plugins.models
+package es.APIRestktor.models
 
 import kotlinx.serialization.Serializable
 
