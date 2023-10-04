@@ -15,7 +15,7 @@ private val users = mutableListOf(
 fun Route.userRouting(){
     route("/user"){
         get {
-            //todo nerea aqui iria la bbdd
+            //todo aqui iria la bbdd
             if (users.isNotEmpty()){
                 call.respond(users)
             } else {
